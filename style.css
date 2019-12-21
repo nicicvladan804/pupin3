@@ -1,0 +1,117 @@
+body{
+    background: #cccccc;
+    padding: 0;
+    margin: 0;
+    font-family: 'Linden Hill',"Arial", "Helvetica"  serif;
+}
+.container{
+    background: whitesmoke;
+    width:980px;
+    margin: 20px auto 20px;
+    padding: 15px;
+    box-shadow: 0 2px 4px #333333;
+    border-radius: 59x;
+    
+}
+header{
+    background-color:#dbceb0 ;
+    text-align: center;
+    border: 1px solid #7e4a35;
+    border-radius: 3px;
+    color: #ffffff;
+    font-style: none;
+    text-transform: uppercase;
+    font-family: 'Sumana', serif;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    
+}
+header h1{
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 2px 2px grey;
+}
+
+nav{
+    display: inline-block;
+    width: 300px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+nav ul{
+   padding-left:5px;
+}
+ nav a,nav li,header a {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 7px;
+    color: #ffffff;
+}
+nav a {
+    border: 1px solid;
+    background-color:#cab777 ;
+    font-family: 'Playfair Display', serif;
+    border-radius: 5px;
+    display: block;
+    
+}
+nav a:visited{
+    color: #ffffff;
+}
+
+nav a:hover{
+    color: #50394c;
+    box-shadow: 1px 1px ;
+}
+.content{
+    display: inline-block;
+    width: 640px;
+    box-sizing: border-box;
+    padding-left: 5px;
+    font-family: 'Playfair Display', serif;
+}
+/*every html*/
+#pupin{
+    margin-top: 10px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 7px;
+}
+
+table{
+    border-collapse: collapse; 
+    background-color: #e0e2e4;
+    font-family: serif;
+
+    
+
+}
+td, th {
+    
+    border: 1px solid grey;
+    padding: 4px;
+ 
+}
+th{
+    background-color: antiquewhite;
+    color: #7e4a35;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+.colona{
+    background-color: #f0f0f0;
+}
+#tablename{
+    background-color: #cab777 ;
+    color: antiquewhite;
+   padding: 10px;
+}
+
+h2,figcaption, .paragraf{
+    text-align: center;
+}
+
+.coiltext{
+    text-indent: 40px;
+}
